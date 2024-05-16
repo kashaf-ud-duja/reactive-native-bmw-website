@@ -19,10 +19,11 @@ const navbar = () => {
     <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
         <nav>
             <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
-                <li><a class="md:p-4 py-3 px-0 block  text-white hover:text-red-600" href="#">AboutUs</a></li>
-                <li><a class="md:p-4 py-3 px-0 block  text-white hover:text-red-600" href="#">Gallery</a></li>
-                <li><a class="md:p-4 py-3 px-0 block  text-white hover:text-red-600" href="#">Blog</a></li>
-                <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2  text-white hover:text-red-600" href="#">Contact Us</a></li>
+            <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2  text-white hover:text-red-600" href="/">Home</a></li>
+                <li><a class="md:p-4 py-3 px-0 block  text-white hover:text-red-600" href="about">AboutUs</a></li>
+                <li><a class="md:p-4 py-3 px-0 block  text-white hover:text-red-600" href="images">Gallery</a></li>
+                <li><a class="md:p-4 py-3 px-0 block  text-white hover:text-red-600" href="videos">Videos</a></li>
+                
             </ul>
         </nav>
     </div>
