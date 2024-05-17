@@ -4,14 +4,16 @@ import Webimages from "./images";
 import Videos from "./videos";
 import About from "./about";
 import Grid from "./grid";
+import Bot from "./bot";
 const home = () => {
   return (
     <div>
     <Webheader />
-    <Grid />
+    {/* <Grid /> */}
     <Webimages />
     <Videos />
     <About />
+    <Bot />
     </div>
   )
 }
